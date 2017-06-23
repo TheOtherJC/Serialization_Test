@@ -8,10 +8,6 @@
 * MsgPack
 
 # Installation
-pickle:
-
-
-
 Protobuf:
 
 `sudo pip3 install protobuf`
