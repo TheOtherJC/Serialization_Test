@@ -45,7 +45,7 @@ print ('writeRead:  %s' % timeit.timeit("writeReadPkl()", setup=setupStatement, 
 ```
 output:
 
-* pickle string length: 26798577 (x10)
+* pickle string length: 26798577
 * writeRead:  4.851042742000573
 
 **Protobuf:**
@@ -67,3 +67,6 @@ from __main__ import writeReadMSG
 
 print ('writeRead:  %s' % timeit.timeit("writeReadMSG()", setup=setupStatement, number=10))
 ```
+
+* MsgPack string length: 16099141
+* writeRead:  3.323402583000643
