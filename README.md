@@ -43,6 +43,19 @@ from __main__ import writeReadPkl, realStuff
 
 print ('writeRead:  %s' % timeit.timeit("writeReadPkl()", setup=setupStatement, number=10))
 ```
+output:
+
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+pickle string length: 26798577
+writeRead:  4.851042742000573
 
 **Protobuf:**
 
