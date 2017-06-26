@@ -2,6 +2,7 @@
 
 
 * Pickle
+    Pickle serialises the object first before writing it to a file, which seems to very useful for what we're trying to do.
 
 * Protobuf
 
