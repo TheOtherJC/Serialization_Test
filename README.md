@@ -11,17 +11,17 @@
    * 
 
 # Installation
-Pickle:
+**Pickle:**
 
 `import pickle`
 
-Protobuf:
+**Protobuf:**
 
 `sudo pip3 install protobuf`
 
 `syntax = "proto2"`
 
-MsgPack:
+**MsgPack:**
 
 `sudo pip install msgpack-python`
 
