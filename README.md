@@ -26,5 +26,40 @@
 `$ sudo pip install msgpack-python`
 
 `import msgpack`
-# Motivation
+# Results
 
+**Pickle:**
+
+```bash
+def writeReadPkl():
+    serializedPkl = pickle.dumps(realStuff, protocol=2)
+    print ('pickle string length: %s'%len(serializedPkl))
+    rslt = pickle.loads(serializedPkl)
+    return rslt
+
+setupStatement="""\
+from __main__ import writeReadPkl, realStuff
+"""
+
+print ('writeRead:  %s' % timeit.timeit("writeReadPkl()", setup=setupStatement, number=10))
+```
+
+**Protobuf:**
+
+`$ sudo pip install msgpack-python`
+
+**MsgPack:**
+
+```bash
+def writeReadMSG():
+    serializedMSG = msgpack.dumps(realStuff)
+    print ('MsgPack length: %s'%len(serializedMSG))
+    rslt = msgpack.loads(serializedMSG)
+    return rslt
+
+setupStatement="""\
+from __main__ import writeReadMSG
+"""
+
+print ('writeRead:  %s' % timeit.timeit("writeReadMSG()", setup=setupStatement, number=10))
+```
