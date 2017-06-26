@@ -45,17 +45,8 @@ print ('writeRead:  %s' % timeit.timeit("writeReadPkl()", setup=setupStatement, 
 ```
 output:
 
-*pickle string length: 26798577
-*pickle string length: 26798577
-*pickle string length: 26798577
-*pickle string length: 26798577
-*pickle string length: 26798577
-pickle string length: 26798577
-pickle string length: 26798577
-pickle string length: 26798577
-pickle string length: 26798577
-pickle string length: 26798577
-writeRead:  4.851042742000573
+* pickle string length: 26798577 (x10)
+* writeRead:  4.851042742000573
 
 **Protobuf:**
 
