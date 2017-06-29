@@ -19,6 +19,7 @@ setupStatement="""\
 from __main__ import writeReadMSG
 """
 
+
 #print ('writeRead:  %s' % timeit.timeit("writeReadMSG()", setup=setupStatement, number=10))
 
 
