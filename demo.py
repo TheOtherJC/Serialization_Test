@@ -4,7 +4,7 @@ import pickle
 import timeit
 import msgpack
 import sys
-from test_pb2 import BunchOfTestDicts, TestDict, Pair
+#from test_pb2 import BunchOfTestDicts, TestDict, Pair
 
 with open('realstuff.pkl', 'rb') as f:
     realStuff = pickle.load(f)
