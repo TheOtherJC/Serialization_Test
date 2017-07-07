@@ -50,7 +50,7 @@ elif rank == 1:
     #pickle.dump(data,open('dataon1.pkl','w'))
 
 end = MPI.Wtime()
-print end - start
+print (end - start)
 
 
 
