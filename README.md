@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-This is a read me 
-=======
+
 # Synopsis
 
 
